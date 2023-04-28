@@ -6,3 +6,8 @@ services:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf
     ports:
       - "8080:80"
+  client:
+    image: "1"
+    build:
+      context: .
+      dockerfile: D:\GitHub\Staff_NETR\reactapp\Dockerfile

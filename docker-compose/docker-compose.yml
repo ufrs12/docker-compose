@@ -10,4 +10,4 @@ services:
     image: "1"
     build:
       context: .
-      dockerfile: D:\GitHub\Staff_NETR\reactapp\Dockerfile
+      dockerfile: H:\source\repos\WeatherApp\reactapp

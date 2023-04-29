@@ -7,7 +7,9 @@ services:
     ports:
       - "8080:80"
   client:
-    image: "1"
-    build:
-      context: .
-      dockerfile: H:\source\repos\WeatherApp\reactapp
+    #image: "1"
+    build: H:\source\repos\WeatherApp\reactapp
+      #context: H:\source\repos\WeatherApp\reactapp
+      #dockerfile: H:\source\repos\WeatherApp\reactapp
+    #ports:
+    #  - "3001:80"

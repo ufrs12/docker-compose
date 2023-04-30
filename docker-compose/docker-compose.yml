@@ -8,8 +8,12 @@ services:
       - "8080:80"
   client:
     #image: "1"
-    build: H:\source\repos\WeatherApp\reactapp
+    build: H:\source\repos\client
       #context: H:\source\repos\WeatherApp\reactapp
       #dockerfile: H:\source\repos\WeatherApp\reactapp
     #ports:
     #  - "3001:80"
+  webapi:
+    build: H:\source\repos\WebApplication3
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
